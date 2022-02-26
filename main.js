@@ -296,6 +296,6 @@ app.get('/FunctionLogTracing', (req, res) => {
     });
 })
 
-app.listen(8081, function () {
-    console.log("done: 8081")
+app.listen(80, function () {
+    console.log("done: 80")
 })
